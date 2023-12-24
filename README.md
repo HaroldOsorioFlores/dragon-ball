@@ -14,7 +14,7 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Learn More
+## About Project
 
 Project with the consumption of the DragonBall API, in this project technologies such as; zustand for global state management, axios for API data retrieval, and tailwind for basic styles.
 
@@ -38,3 +38,4 @@ Character
 
 To see the project, visit the following link, it is uploaded in vercel.
 [https://dragonball-api-pi.vercel.app/](https://dragonball-api-pi.vercel.app/)
+![https://dragonball-api-pi.vercel.app/](https://dragonball-api-pi.vercel.app/)
