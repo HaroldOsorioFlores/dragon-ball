@@ -1,5 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
 
 First, run the development server:
@@ -16,22 +14,27 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+Project with the consumption of the DragonBall API, in this project technologies such as; zustand for global state management, axios for API data retrieval, and tailwind for basic styles.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+In addition, the rendering of the characters and planets was carried out, as well as the search for the characters through matches using the filter method. On the other hand, other methods were used.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Images
+
+Pagina de los personajes
+![Alt text](image.png)
+
+Pagina de los planetas
+![Alt text](image-1.png)
+
+Using input search
+![Alt text](image-2.png)
+
+Character
+![Alt text](image-3.png)
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-"# dragon-ball" 
+To see the project, visit the following link, it is uploaded in vercel.
+[https://dragonball-api-pi.vercel.app/](https://dragonball-api-pi.vercel.app/)
