@@ -23,16 +23,16 @@ In addition, the rendering of the characters and planets was carried out, as wel
 ## Images
 
 Pagina de los personajes
-![Alt text](image.png)
+![Alt text](https://res.cloudinary.com/dqrtitrrs/image/upload/v1703439398/Projects%20Image/dragonBall_q4cb4g.png)
 
 Pagina de los planetas
-![Alt text](image-1.png)
+![Alt text](https://res.cloudinary.com/dqrtitrrs/image/upload/v1703439398/Projects%20Image/dragonBall1_cy9ipq.png)
 
 Using input search
-![Alt text](image-2.png)
+![Alt text](https://res.cloudinary.com/dqrtitrrs/image/upload/v1703439398/Projects%20Image/dragonBall2_qxtzd3.png)
 
 Character
-![Alt text](image-3.png)
+![Alt text](https://res.cloudinary.com/dqrtitrrs/image/upload/v1703439399/Projects%20Image/dragonBall3_uks8bh.png)
 
 ## Deploy on Vercel
 
