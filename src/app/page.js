@@ -1,6 +1,5 @@
 "use client";
-import { useState, useEffect } from "react";
-import { getItemsDB } from "../utils/fetchData";
+
 import { svgComponent } from "../utils/svg";
 import Link from "next/link";
 import { ItemsDB } from "@/components/container/ItemsDB";
@@ -18,7 +17,7 @@ export default function Home() {
         </Link>
       </section>
       <div className="md:self-end">
-        <InputSearch />
+        <InputSearch item={"characters"} numbItem={58}/>
       </div>
       <ItemsDB itemsNumb={58} item={"characters"} />
     </main>

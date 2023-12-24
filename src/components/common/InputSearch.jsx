@@ -1,17 +1,19 @@
 "use client";
+import { useItemStore } from "@/Store/storeSearch";
 import { getItemsDB } from "@/utils/fetchData";
 import { useState, useEffect } from "react";
 
-export const InputSearch = () => {
+export const InputSearch = ({ numbItem, item }) => {
   const [data, setData] = useState([]);
   const [search, setSearch] = useState("");
+  const searchItem = useItemStore((state) => state.searchItem);
 
   useEffect(() => {
     const fetchData = async () => {
-      return setData(await getItemsDB(1, 58, "characters"));
+      return setData(await getItemsDB(1, numbItem, item));
     };
     fetchData();
-  }, []);
+  }, [item, numbItem]);
 
   const filterData = (item, search) => {
     const lowerCaseSearch = search.toLowerCase();
@@ -24,11 +26,10 @@ export const InputSearch = () => {
 
     return rest;
   };
-  const handleSubmit = () => {};
   const handleSearch = (e) => {
     e.preventDefault();
     const searchResults = data.filter((item) => filterData(item, search));
-    console.log(searchResults);
+    searchItem(searchResults);
   };
   return (
     <form onSubmit={handleSearch} className="md:w-96">
