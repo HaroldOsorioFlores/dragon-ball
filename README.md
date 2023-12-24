@@ -1,3 +1,5 @@
+# Dragon Ball
+
 ## Getting Started
 
 First, run the development server:
@@ -34,8 +36,12 @@ Using input search
 Character
 ![Alt text](https://res.cloudinary.com/dqrtitrrs/image/upload/v1703439399/Projects%20Image/dragonBall3_uks8bh.png)
 
+## API
+
+To see the api, visit the link.
+[Api de dragon ball](https://web.dragonball-api.com/documentation)
+
 ## Deploy on Vercel
 
 To see the project, visit the following link, it is uploaded in vercel.
 [https://dragonball-api-pi.vercel.app/](https://dragonball-api-pi.vercel.app/)
-![https://dragonball-api-pi.vercel.app/](https://dragonball-api-pi.vercel.app/)
