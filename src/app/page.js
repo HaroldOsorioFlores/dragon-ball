@@ -8,8 +8,8 @@ import { InputSearch } from "@/components/common/InputSearch";
 
 export default function Home() {
   return (
-    <main>
-      <section className="flex flex-col p-2 px-3 gap-3">
+    <main className="flex flex-col p-2 px-3 gap-3">
+      <section className="flex flex-col gap-3">
         <h1 className="xl:text-3xl md:text-lg text-base ">
           Dragon Ball Personajes
         </h1>
@@ -17,7 +17,9 @@ export default function Home() {
           {svgComponent[0].svg} <span className="text-blue-800">Planetas</span>
         </Link>
       </section>
-      <InputSearch />
+      <div className="md:self-end">
+        <InputSearch />
+      </div>
       <ItemsDB itemsNumb={58} item={"characters"} />
     </main>
   );
